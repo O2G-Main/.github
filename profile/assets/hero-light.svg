@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="o2g-hero-title-light o2g-hero-desc-light">
+  <title id="o2g-hero-title-light">O2G: Applied Decision Systems and Context Graphs</title>
+  <desc id="o2g-hero-desc-light">O2G GitHub Organization Banner in light alabaster-plum theme</desc>
+  <defs>
+    <linearGradient id="bg-light" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBF9FD"/>
+      <stop offset="55%" stop-color="#F4EEFA"/>
+      <stop offset="100%" stop-color="#EADDF6"/>
+    </linearGradient>
+    <linearGradient id="accent-line-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#7C3AED" stop-opacity="0.75"/>
+      <stop offset="82%" stop-color="#5B21B6" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#5B21B6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="panel-light" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#090011"/>
+      <stop offset="60%" stop-color="#190128"/>
+      <stop offset="100%" stop-color="#29003F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Surface -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-light)"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="318.5" rx="15.25" fill="none" stroke="#D8C4EC" stroke-width="1.5"/>
+
+  <!-- Subtle architectural corner ticks -->
+  <path d="M 32 54 L 32 32 L 54 32" fill="none" stroke="#6D28D9" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 1146 32 L 1168 32 L 1168 54" fill="none" stroke="#6D28D9" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 32 266 L 32 288 L 54 288" fill="none" stroke="#6D28D9" stroke-opacity="0.5" stroke-width="1.5"/>
+  <path d="M 1146 288 L 1168 288 L 1168 266" fill="none" stroke="#6D28D9" stroke-opacity="0.5" stroke-width="1.5"/>
+
+  <!-- Left Monogram Emblem Container -->
+  <rect x="64" y="62" width="316" height="196" rx="14" fill="url(#panel-light)"/>
+
+  <!-- Exact O2G Vector Monogram -->
+  <g transform="translate(100, 95) scale(1.12)" fill="#F2F1F0">
+    <!-- Glyph O -->
+    <path fill-rule="evenodd" d="M 13 0 H 57 A 13 13 0 0 1 70 13 V 103 A 13 13 0 0 1 57 116 H 13 A 13 13 0 0 1 0 103 V 13 A 13 13 0 0 1 13 0 Z M 35 10 A 3 3 0 0 0 32 13 V 103 A 3 3 0 0 0 38 103 V 13 A 3 3 0 0 0 35 10 Z"/>
+    <!-- Glyph 2 -->
+    <g transform="translate(74, 0)">
+      <path fill-rule="evenodd" d="
+        M 13 0 H 57 A 13 13 0 0 1 70 13 V 52
+        C 70 60, 65 67, 56 67
+        H 32 V 72 H 38 V 103 A 3 3 0 0 1 32 103 V 72 H 70
+        V 114 A 2 2 0 0 1 68 116 H 2 A 2 2 0 0 1 0 114 V 70
+        C 0 62, 6 57, 14 57
+        H 38 V 52 H 0 V 13 A 13 13 0 0 1 13 0 Z
+        M 35 10 A 3 3 0 0 0 32 13 V 48 A 3 3 0 0 0 38 48 V 13 A 3 3 0 0 0 35 10 Z
+      "/>
+    </g>
+    <!-- Glyph G -->
+    <g transform="translate(148, 0)">
+      <path fill-rule="evenodd" d="
+        M 13 0 H 57 A 13 13 0 0 1 70 13 V 32 H 38 V 13 A 3 3 0 0 0 32 13 V 103 A 3 3 0 0 0 38 103 V 48 H 36 V 38 H 70
+        V 103 A 13 13 0 0 1 57 116 H 13 A 13 13 0 0 1 0 103 V 13 A 13 13 0 0 1 13 0 Z
+      "/>
+    </g>
+  </g>
+
+  <!-- Vertical Structural Divider -->
+  <line x1="418" y1="68" x2="418" y2="252" stroke="#D2BEE8" stroke-width="1"/>
+
+  <!-- Right Editorial Identity Block -->
+  <text x="454" y="92" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="600" letter-spacing="2.2">O2G  ·  INDONESIA</text>
+
+  <text x="454" y="142" fill="#140421" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="33" font-weight="700" letter-spacing="-0.6">Applied decision systems</text>
+  <text x="454" y="184" fill="#140421" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="33" font-weight="700" letter-spacing="-0.6">and context graphs.</text>
+
+  <text x="454" y="222" fill="#4B3B5E" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="400">Software built for aquaculture, healthcare, agriculture, energy, and markets.</text>
+
+  <!-- Subtle horizontal rule + bottom metadata -->
+  <rect x="454" y="248" width="682" height="1" fill="url(#accent-line-light)"/>
+  <text x="454" y="274" fill="#5B4A70" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" letter-spacing="0.6">GO  ·  TYPESCRIPT  ·  PYTHON</text>
+  <text x="1136" y="274" text-anchor="end" fill="#5B4A70" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5" letter-spacing="0.6">WEB  ·  API  ·  MOBILE</text>
+</svg>
